@@ -1,19 +1,12 @@
 let numbers = [];
 
 function getRandomNumber() {
-
     let randomNumber = Math.floor(Math.random() * 25) + 1;
-
     if (numbers.includes(randomNumber)) {
-
         return getRandomNumber();
-
     }
-
     numbers.push(randomNumber);
-
     return randomNumber;
-
 }
 
 document.getElementById('rollButton').onclick = function() {

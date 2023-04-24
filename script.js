@@ -2,7 +2,7 @@ let numbers = [];
 
 function getRandomNumber() {
 
-    let randomNumber = Math.floor(Math.random() * 60) + 1;
+    let randomNumber = Math.floor(Math.random() * 25) + 1;
 
     if (numbers.includes(randomNumber)) {
 
